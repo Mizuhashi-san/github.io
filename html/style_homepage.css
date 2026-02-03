@@ -1,0 +1,148 @@
+/* 全体の設定 */
+body {
+    margin: 0 0 0 0;
+}
+
+main {
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin: 0 auto 0 auto;
+    max-width: 1000px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+.menu ul {
+    display: flex;
+    margin-top: 30px;
+    gap: 15px;
+    padding: 0;
+    list-style: none;
+    justify-content: center; /*中央寄せ*/
+}
+
+.menu ul li a{
+    background-color: #071753;
+    color: #ffffff;
+    padding: 10px;
+    white-space: nowrap;
+    text-decoration: none;   /* 下線を消す */
+    border-radius: 7px;
+}
+
+/* ヘッダー部分 */
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 16px;
+}
+
+.header-text h1{
+  margin: 0 0 6px 0;
+}
+
+.header-text p{
+  margin: 4px 0;
+}
+
+.header-text .updated{
+  font-size: 12px;
+  color: gray;
+  margin-top: 6px;
+}
+
+#header-logo img{
+  display: block;
+  max-height: 60px;
+  width: auto;
+}
+
+
+/*ロゴ全般の設定*/
+.logo {
+    text-align: center; /*中央揃え*/
+}
+
+/*タイトルロゴの設定 */
+#title-logo img{
+    max-height: 40px;  /* ロゴの大きさを調整 */
+    width: auto;       /* 比率を維持 */
+    margin-top: 15px;
+}
+
+/* ロゴ画像の設定 */
+#header-logo img {
+    max-height: 60px;
+    width: auto;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+/* 各セクション */
+section {
+    margin: 0 40px 40px 40px;
+    background: #e7e5e5;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: solid 5px #071753;
+}
+
+h2 {
+    border-left: 5px solid #2c3e50;
+    border-bottom: 1px solid gray;
+    padding: 0 0 5px 15px;
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+/* リストの設定 */
+ul {
+    padding-left: 20px;
+}
+li {
+    margin-bottom: 10px;
+}
+
+/*トップへ戻る*/
+#tothetop a{
+    display: inline-block;
+    background-color: #071753;
+    color: #ffffff;
+    padding: 10px 14px;
+    margin: 20px;
+    white-space: nowrap;
+    text-decoration: none;   /* 下線を消す */
+    border-radius: 7px;
+}
+
+
+/*コピーライト*/
+.copyright {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #d6d6d6;
+    background-color: #071753;
+    padding: 50px 0 50px 0;
+    margin: 10px 0 0 0;
+}
+
+/* リンク */
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}

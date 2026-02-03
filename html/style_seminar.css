@@ -1,0 +1,36 @@
+/*ヒーロー画像*/
+.hero {
+    padding: 70px 0;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 32px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero.index {
+    background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),
+                      url('images/Hakata.jpg');
+}
+
+table.content {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 0.95rem;
+}
+
+table.content th, table.content td {
+    border: 1px solid #cccccc;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+table.content th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+table.content tr:nth-child(even) {
+    background-color: #fafafa;
+}

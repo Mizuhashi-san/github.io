@@ -1,0 +1,58 @@
+/*ヒーロー画像*/
+.hero {
+    padding: 70px 0;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 32px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero.index {
+    background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),
+                      url('images/Oshino.jpg');
+}
+
+.contact {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 16px;
+  line-height: 1.7;
+}
+
+.contact p {
+  margin: 0 0 14px 0;
+}
+
+.contact-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fafafa;
+  border: 1px solid #e0e0e0;
+}
+
+.contact-table td {
+  padding: 12px 14px;
+  border-top: 1px solid #eaeaea;
+  vertical-align: top;
+  border-right: 1px solid #e0e0e0;
+}
+
+.contact-table tr:first-child td {
+  border-top: none;
+}
+
+.contact-table td:first-child {
+  width: 120px;
+  white-space: nowrap;
+  color: #071753;
+}
+
+.contact-table a {
+  color: #071753;
+  text-decoration: none;
+}
+
+.contact-table a:hover {
+  text-decoration: underline;
+}
