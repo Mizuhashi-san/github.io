@@ -34,3 +34,30 @@ table.content th {
 table.content tr:nth-child(even) {
     background-color: #fafafa;
 }
+
+.info {
+  margin: 0;
+  padding: 0;
+  max-width: 900px;
+}
+
+.info__row {
+    padding-bottom: 15px;
+}
+
+.info dt {
+  font-weight: bold;
+  margin: 0 0 4px 0;
+  font-size: 18px;
+}
+
+.info dd {
+  margin-bottom: 15px;
+  line-height: 1.75;
+  word-break: break-word; /* 長い文字列でもはみ出しにくい */
+}
+
+.info__list {
+  margin: 0;
+  padding-left: 1.2em;
+}

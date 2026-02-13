@@ -17,7 +17,7 @@ main {
 .menu ul {
     display: flex;
     margin-top: 30px;
-    gap: 15px;
+    gap: 30px;
     padding: 0;
     list-style: none;
     justify-content: center; /*中央寄せ*/
@@ -32,13 +32,9 @@ main {
     border-radius: 7px;
 }
 
-/* ヘッダー部分 */
-.header-container{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-  padding: 10px 16px;
+/*ヘッダー部分*/
+.header-text {
+    padding: 0 4%;
 }
 
 .header-text h1{
@@ -46,7 +42,9 @@ main {
 }
 
 .header-text p{
+  gap: 12px;
   margin: 4px 0;
+  padding: 10px 16px;
 }
 
 .header-text .updated{
@@ -84,14 +82,14 @@ main {
 
 /* 各セクション */
 section {
-    margin: 0 40px 40px 40px;
+    margin: 0 20px 40px 20px;
     background: #e7e5e5;
     padding: 20px;
     border-radius: 8px;
     border-left: solid 5px #071753;
 }
 
-h2 {
+section h2 {
     border-left: 5px solid #2c3e50;
     border-bottom: 1px solid gray;
     padding: 0 0 5px 15px;
@@ -145,4 +143,12 @@ a:hover {
 
 a:active {
     text-decoration: underline;
+}
+
+/*モバイル対応*/
+@media (max-width: 767px) {
+    .menu ul {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
 }
