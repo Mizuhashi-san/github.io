@@ -27,11 +27,11 @@ table.content th, table.content td {
 }
 
 table.content th {
-    background-color: #f2f2f2;
+    background-color: #fafafa;
     font-weight: bold;
 }
 
-table.content tr:nth-child(even) {
+table.content tr {
     background-color: #fafafa;
 }
 
