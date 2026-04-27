@@ -9,7 +9,7 @@ main {
     line-height: 1.6;
     color: #333;
     margin: 0 auto 0 auto;
-    max-width: 1000px;
+    max-width: 1300px;
     background-color: #ffffff;
     box-sizing: border-box;
 }
@@ -38,25 +38,25 @@ main {
 }
 
 .header-text h1{
-  margin: 0 0 6px 0;
+    margin: 0 0 6px 0;
 }
 
 .header-text p{
-  gap: 12px;
-  margin: 4px 0;
-  padding: 10px 16px;
+    gap: 12px;
+    margin: 4px 0;
+    padding: 10px 16px;
 }
 
 .header-text .updated{
-  font-size: 12px;
-  color: gray;
-  margin-top: 6px;
+    font-size: 12px;
+    color: gray;
+    margin-top: 6px;
 }
 
 #header-logo img{
-  display: block;
-  max-height: 60px;
-  width: auto;
+    display: block;
+    max-height: 60px;
+    width: auto;
 }
 
 
@@ -82,7 +82,7 @@ main {
 
 /* 各セクション */
 section {
-    margin: 0 20px 40px 20px;
+    margin: 0 10px 20px 20px;
     background: #e7e5e5;
     padding: 20px;
     border-radius: 8px;
@@ -142,6 +142,32 @@ a:hover {
 }
 
 a:active {
+    text-decoration: underline;
+}
+
+/* 言語切り替え */
+.lang-switch {
+    text-align: right;
+    padding: 6px 20px 0;
+    font-size: 0.85rem;
+}
+
+.lang-switch .lang-current {
+    color: #071753;
+    font-weight: bold;
+}
+
+.lang-switch .lang-sep {
+    margin: 0 4px;
+    color: #999;
+}
+
+.lang-switch a {
+    color: #999;
+}
+
+.lang-switch a:hover {
+    color: #071753;
     text-decoration: underline;
 }
 
