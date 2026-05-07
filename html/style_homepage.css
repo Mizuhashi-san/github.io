@@ -87,6 +87,51 @@ section {
     padding: 20px;
     border-radius: 8px;
     border-left: solid 5px #071753;
+    background: linear-gradient(135deg, #eef2ff 0%, #e7e5e5 100%);
+    box-shadow: 0 4px 16px rgba(7, 23, 83, 0.12);
+    position: relative;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+section::before {
+    content: '';
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    width: 140px;
+    height: 140px;
+    background: rgba(7, 23, 83, 0.06);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+section:hover {
+    box-shadow: 0 8px 28px rgba(7, 23, 83, 0.2);
+    transform: translateY(-2px);
+}
+
+section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+section .c-link {
+    display: inline-block;
+    background-color: #071753;
+    color: #ffffff;
+    padding: 10px 22px;
+    border-radius: 6px;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+section .c-link:hover {
+    background-color: #1a3a8f;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(7, 23, 83, 0.3);
+    text-decoration: none;
 }
 
 section h2 {
